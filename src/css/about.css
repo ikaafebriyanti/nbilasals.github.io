@@ -55,6 +55,7 @@ main {
 }
 
 .about_me p {
+    position: inline;
     font-weight: bold;
     padding-left: 36px;
     width: 20px;
