@@ -88,7 +88,7 @@ main {
 
 .image {
     position: absolute;
-    height: 70%;
+    height: 20%;
     bottom: 0;
     right: 0;
 }
@@ -125,7 +125,7 @@ main {
     }
 
     .image {
-        height: 95%;
+        height: 85%;
         bottom: 0;
         right: 5%;
     }
