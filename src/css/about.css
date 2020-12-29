@@ -63,7 +63,7 @@ main {
 }
 
 .cv {
-    position: fixed;
+    position: static;
     padding: 10px;
     width: 100px;
     top: 250px;
