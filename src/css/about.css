@@ -63,7 +63,7 @@ main {
 }
 
 .cv {
-    position: static;
+    position: absolute;
     padding: 10px;
     width: 100px;
     top: 250px;
@@ -77,6 +77,24 @@ main {
     font-weight: bold;
     border-radius: 5px;
     margin-right: 40px;
+}
+
+.aplikom {
+    position:absolute;
+    padding: 10px;
+    width: 170px;
+    top: 250px;
+    left: 130px;
+    color: #585654;
+    background-color: rgb(255, 245, 245);
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    font-size: 12px;
+    background-clip: padding-box;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 40px;
+
 }
 
 .card_my_skills {
