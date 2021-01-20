@@ -8,7 +8,8 @@
     font-family: 'Alegreya Sans', sans-serif;
 }
 body {
-	background-color: hsl(210, 17%, 89%);
+    background-color: hsl(210, 17%, 89%);
+    margin: 20pt;
 }
 
 .main {
@@ -22,15 +23,19 @@ body {
     padding: 40px;
     right: 50%;
 
-.text-primary { color: hsl(0, 0%, 38%); }
-.text-secondary { color: #1a1717; }
-.text-white { color: rgb(253, 253, 253); }
+    .penulis a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        background-color: hsl(213, 4%, 46%);
+        color: white;
+    }
 
-.bg-primary { background-color: rgb(14, 15, 15); }
-.bg-secondary { background-color: #8d8189; }
-.bg-white { background-color: hsl(10, 30%, 92%); }
-
-a { text-decoration: none; }
+    .tahun {
+        top:-10px;
+    }
 
 .container {
     width: 100%;
