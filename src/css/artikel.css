@@ -8,12 +8,19 @@
     font-family: 'Alegreya Sans', sans-serif;
 }
 body {
-	background-color: rgb(220, 229, 255);
+	background-color: hsl(210, 17%, 89%);
 }
 
 .main {
 	color:#534d44
 }
+
+.image {
+    width: 300pt;
+    height: 400pt;
+    bottom: 0;
+    padding: 40px;
+    right: 50%;
 
 .text-primary { color: hsl(0, 0%, 38%); }
 .text-secondary { color: #1a1717; }
